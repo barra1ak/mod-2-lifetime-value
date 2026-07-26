@@ -1,0 +1,428 @@
+<!-- =========================================================
+     LIFETIME CUSTOMER VALUE
+     Paste into a Canvas HTML editor or WordPress HTML block
+========================================================= -->
+
+<section class="lcv-lesson">
+  <div class="lcv-hero">
+    <span class="lcv-eyebrow">THINK BEYOND TODAY</span>
+    <h2>Lifetime Customer Value</h2>
+    <p>
+      A customer relationship is rarely defined by one purchase. Its greater
+      potential may develop through years of trust, useful support, repeat
+      decisions, and shared success.
+    </p>
+  </div>
+
+  <div class="lcv-intro">
+    <div class="lcv-icon" aria-hidden="true">∞</div>
+
+    <div>
+      <h3>Look beyond the immediate sale</h3>
+      <p>
+        Lifetime customer value is a way of viewing a customer according to
+        the potential of the entire relationship—not simply the size of the
+        opportunity in front of you today.
+      </p>
+
+      <p>
+        This perspective changes the question from
+        <strong>“What can I sell right now?”</strong> to
+        <strong>“What could we accomplish together over time?”</strong>
+      </p>
+    </div>
+  </div>
+
+  <div class="lcv-section">
+    <h3>What creates long-term value?</h3>
+    <p class="lcv-instruction">
+      Select each part of the relationship to explore it.
+    </p>
+
+    <div class="lcv-grid">
+      <button class="lcv-card" type="button"
+        data-detail="Trust grows when customers experience honesty, consistency, and follow-through. Trust makes future conversations more open and productive.">
+        <span class="lcv-card-number">01</span>
+        <strong>Trust</strong>
+        <small>Can the customer rely on you?</small>
+      </button>
+
+      <button class="lcv-card" type="button"
+        data-detail="Understanding the customer’s operation, priorities, and changing environment allows you to remain useful as new needs emerge.">
+        <span class="lcv-card-number">02</span>
+        <strong>Understanding</strong>
+        <small>Do you know what success means to them?</small>
+      </button>
+
+      <button class="lcv-card" type="button"
+        data-detail="The relationship becomes stronger when your products, services, knowledge, and support help the customer achieve meaningful outcomes.">
+        <span class="lcv-card-number">03</span>
+        <strong>Customer Success</strong>
+        <small>Are they better because you are involved?</small>
+      </button>
+
+      <button class="lcv-card" type="button"
+        data-detail="Follow-up after a decision protects the customer’s experience, addresses problems, and often becomes preparation for the next opportunity.">
+        <span class="lcv-card-number">04</span>
+        <strong>Continued Support</strong>
+        <small>What happens after the purchase?</small>
+      </button>
+    </div>
+
+    <div class="lcv-detail" id="lcvDetail" aria-live="polite">
+      Choose a card to see how it contributes to the relationship.
+    </div>
+  </div>
+
+  <div class="lcv-scenario">
+    <div class="lcv-scenario-copy">
+      <span class="lcv-eyebrow">QUICK DECISION</span>
+      <h3>A customer reports a problem after purchasing.</h3>
+      <p>Which response reflects a lifetime-value mindset?</p>
+    </div>
+
+    <div class="lcv-choices">
+      <button type="button" class="lcv-choice" data-answer="limited">
+        Explain that the sale is complete and direct them to a general
+        support number.
+      </button>
+
+      <button type="button" class="lcv-choice" data-answer="strong">
+        Help investigate the issue, coordinate the right resources, and
+        follow up until the customer knows what happens next.
+      </button>
+
+      <button type="button" class="lcv-choice" data-answer="limited">
+        Avoid contacting them until there is another product to discuss.
+      </button>
+    </div>
+
+    <div class="lcv-feedback" id="lcvFeedback" aria-live="polite">
+      Select the response you believe creates the strongest long-term value.
+    </div>
+  </div>
+
+  <div class="lcv-takeaway">
+    <span class="lcv-takeaway-label">KEY TAKEAWAY</span>
+    <p>
+      Lifetime customer value is not only about what a customer may purchase.
+      It is about the value that can be created when both organizations continue
+      learning, solving problems, and succeeding together.
+    </p>
+  </div>
+</section>
+
+<style>
+  .lcv-lesson {
+    --gold: #cfb991;
+    --dark-gold: #8e6f3e;
+    --black: #1f1f1f;
+    --cream: #faf7f1;
+    --white: #ffffff;
+    --gray: #606060;
+    --green: #2f6b4f;
+    --red: #9f3a38;
+
+    max-width: 1050px;
+    margin: 30px auto;
+    color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+  }
+
+  .lcv-lesson * {
+    box-sizing: border-box;
+  }
+
+  .lcv-hero {
+    padding: 46px;
+    color: var(--white);
+    background:
+      radial-gradient(circle at 92% 15%, rgba(207, 185, 145, 0.24), transparent 28%),
+      var(--black);
+    border-radius: 28px;
+  }
+
+  .lcv-hero h2 {
+    margin: 5px 0 12px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.05;
+  }
+
+  .lcv-hero p {
+    max-width: 750px;
+    margin: 0;
+    font-size: 1.08rem;
+    color: #f2f2f2;
+  }
+
+  .lcv-eyebrow {
+    display: inline-block;
+    color: var(--gold);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+  }
+
+  .lcv-intro {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 24px;
+    align-items: start;
+    margin: 26px 0;
+    padding: 30px;
+    background: var(--cream);
+    border: 1px solid #e8dfd1;
+    border-radius: 24px;
+  }
+
+  .lcv-icon {
+    display: grid;
+    place-items: center;
+    width: 76px;
+    height: 76px;
+    color: var(--black);
+    background: var(--gold);
+    border-radius: 50%;
+    font-size: 2.7rem;
+    font-weight: 800;
+  }
+
+  .lcv-intro h3,
+  .lcv-section h3,
+  .lcv-scenario h3 {
+    margin: 0 0 8px;
+    line-height: 1.25;
+  }
+
+  .lcv-intro p:last-child {
+    margin-bottom: 0;
+  }
+
+  .lcv-section {
+    padding: 32px;
+    border: 1px solid #dedede;
+    border-radius: 24px;
+  }
+
+  .lcv-instruction {
+    margin-top: 0;
+    color: var(--gray);
+  }
+
+  .lcv-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .lcv-card {
+    min-height: 175px;
+    padding: 20px;
+    text-align: left;
+    color: var(--black);
+    background: var(--white);
+    border: 2px solid #e4e4e4;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.2s ease,
+      background 0.2s ease;
+  }
+
+  .lcv-card:hover,
+  .lcv-card:focus-visible {
+    transform: translateY(-3px);
+    border-color: var(--dark-gold);
+  }
+
+  .lcv-card.active {
+    background: var(--cream);
+    border-color: var(--dark-gold);
+  }
+
+  .lcv-card-number {
+    display: block;
+    margin-bottom: 25px;
+    color: var(--dark-gold);
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+
+  .lcv-card strong,
+  .lcv-card small {
+    display: block;
+  }
+
+  .lcv-card strong {
+    margin-bottom: 5px;
+    font-size: 1.05rem;
+  }
+
+  .lcv-card small {
+    color: var(--gray);
+    font-size: 0.88rem;
+    line-height: 1.4;
+  }
+
+  .lcv-detail {
+    margin-top: 18px;
+    padding: 18px 20px;
+    background: var(--black);
+    color: var(--white);
+    border-radius: 16px;
+  }
+
+  .lcv-scenario {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 30px;
+    margin-top: 26px;
+    padding: 34px;
+    background: var(--black);
+    color: var(--white);
+    border-radius: 24px;
+  }
+
+  .lcv-scenario-copy p {
+    color: #dedede;
+  }
+
+  .lcv-choices {
+    display: grid;
+    gap: 11px;
+  }
+
+  .lcv-choice {
+    width: 100%;
+    padding: 15px 17px;
+    color: var(--black);
+    background: var(--white);
+    border: 2px solid transparent;
+    border-radius: 14px;
+    text-align: left;
+    line-height: 1.45;
+    cursor: pointer;
+  }
+
+  .lcv-choice:hover,
+  .lcv-choice:focus-visible {
+    border-color: var(--gold);
+  }
+
+  .lcv-choice.correct {
+    background: #eaf5ef;
+    border-color: var(--green);
+  }
+
+  .lcv-choice.incorrect {
+    background: #fbeceb;
+    border-color: var(--red);
+  }
+
+  .lcv-feedback {
+    margin-top: 14px;
+    padding: 14px 16px;
+    color: var(--black);
+    background: var(--gold);
+    border-radius: 13px;
+  }
+
+  .lcv-takeaway {
+    margin-top: 26px;
+    padding: 27px 30px;
+    background: var(--cream);
+    border-left: 7px solid var(--gold);
+    border-radius: 0 18px 18px 0;
+  }
+
+  .lcv-takeaway-label {
+    color: var(--dark-gold);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+  }
+
+  .lcv-takeaway p {
+    margin: 7px 0 0;
+    font-size: 1.08rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 800px) {
+    .lcv-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .lcv-scenario {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .lcv-hero,
+    .lcv-section,
+    .lcv-scenario {
+      padding: 25px 20px;
+      border-radius: 20px;
+    }
+
+    .lcv-intro {
+      grid-template-columns: 1fr;
+      padding: 24px 20px;
+    }
+
+    .lcv-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .lcv-card {
+      min-height: auto;
+    }
+
+    .lcv-card-number {
+      margin-bottom: 12px;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    const lesson = document.querySelector(".lcv-lesson");
+
+    if (!lesson) return;
+
+    const cards = lesson.querySelectorAll(".lcv-card");
+    const detail = lesson.querySelector("#lcvDetail");
+    const choices = lesson.querySelectorAll(".lcv-choice");
+    const feedback = lesson.querySelector("#lcvFeedback");
+
+    cards.forEach(function (card) {
+      card.addEventListener("click", function () {
+        cards.forEach(function (item) {
+          item.classList.remove("active");
+        });
+
+        card.classList.add("active");
+        detail.textContent = card.dataset.detail;
+      });
+    });
+
+    choices.forEach(function (choice) {
+      choice.addEventListener("click", function () {
+        choices.forEach(function (item) {
+          item.classList.remove("correct", "incorrect");
+        });
+
+        if (choice.dataset.answer === "strong") {
+          choice.classList.add("correct");
+          feedback.innerHTML =
+            "<strong>Strong choice.</strong> Supporting the customer after the purchase protects trust, improves their experience, and prepares the relationship for future opportunities.";
+        } else {
+          choice.classList.add("incorrect");
+          feedback.innerHTML =
+            "<strong>Think longer term.</strong> A completed transaction does not mean the relationship is complete. Follow-up and continued support help create future value.";
+        }
+      });
+    });
+  })();
+</script>
