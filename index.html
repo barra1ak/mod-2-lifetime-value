@@ -1,428 +1,2006 @@
 <!-- =========================================================
-     LIFETIME CUSTOMER VALUE
+     LIFETIME CUSTOMER VALUE — INTERACTIVE LEARNING EXPERIENCE
      Paste into a Canvas HTML editor or WordPress HTML block
 ========================================================= -->
 
-<section class="lcv-lesson">
+<section class="lcv-experience">
+
+  <!-- HERO -->
   <div class="lcv-hero">
-    <span class="lcv-eyebrow">THINK BEYOND TODAY</span>
-    <h2>Lifetime Customer Value</h2>
-    <p>
-      A customer relationship is rarely defined by one purchase. Its greater
-      potential may develop through years of trust, useful support, repeat
-      decisions, and shared success.
-    </p>
+    <div class="lcv-hero-content">
+      <span class="lcv-eyebrow">THINK BEYOND TODAY</span>
+      <h2>Lifetime Customer Value</h2>
+
+      <p>
+        The value of a customer relationship is not limited to the purchase
+        directly in front of you. It develops through trust, understanding,
+        useful support, repeat decisions, and shared success over time.
+      </p>
+
+      <div class="lcv-hero-question">
+        <span>Consider this:</span>
+        Are you pursuing a transaction—or developing a relationship?
+      </div>
+    </div>
+
+    <div class="lcv-infinity" aria-hidden="true">∞</div>
   </div>
 
-  <div class="lcv-intro">
-    <div class="lcv-icon" aria-hidden="true">∞</div>
+
+  <!-- MINDSET COMPARISON -->
+  <div class="lcv-section">
+    <div class="lcv-section-heading">
+      <span class="lcv-step-label">PART 1</span>
+      <h3>Change the Lens</h3>
+      <p>
+        Select each perspective to see how it changes the salesperson’s
+        attention and behavior.
+      </p>
+    </div>
+
+    <div class="lcv-lens-controls" role="group"
+      aria-label="Compare customer perspectives">
+
+      <button
+        type="button"
+        class="lcv-lens-button active"
+        data-lens="immediate">
+        Immediate Opportunity
+      </button>
+
+      <button
+        type="button"
+        class="lcv-lens-button"
+        data-lens="longterm">
+        Long-Term Relationship
+      </button>
+    </div>
+
+    <div class="lcv-lens-panel" id="lcvLensPanel" aria-live="polite">
+
+      <div class="lcv-lens-title">
+        <span class="lcv-lens-icon">→</span>
+
+        <div>
+          <small>The salesperson is primarily asking:</small>
+          <strong>“How can I complete this sale?”</strong>
+        </div>
+      </div>
+
+      <div class="lcv-lens-grid">
+
+        <div class="lcv-lens-item">
+          <span>Focus</span>
+          <p>The current product, order, or purchasing decision.</p>
+        </div>
+
+        <div class="lcv-lens-item">
+          <span>Time Horizon</span>
+          <p>What can happen during the current sales cycle?</p>
+        </div>
+
+        <div class="lcv-lens-item">
+          <span>Success Signal</span>
+          <p>The customer agrees to purchase.</p>
+        </div>
+
+        <div class="lcv-lens-item">
+          <span>Potential Risk</span>
+          <p>
+            The customer may feel forgotten once the transaction is complete.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- RELATIONSHIP JOURNEY -->
+  <div class="lcv-section lcv-soft-section">
+    <div class="lcv-section-heading">
+      <span class="lcv-step-label">PART 2</span>
+      <h3>Explore How Value Develops</h3>
+      <p>
+        A relationship gains value through a series of experiences. Select
+        each stage to explore what the customer may be evaluating.
+      </p>
+    </div>
+
+    <div class="lcv-journey" role="group"
+      aria-label="Customer relationship journey">
+
+      <button
+        type="button"
+        class="lcv-journey-stage active"
+        data-stage="understand">
+
+        <span class="lcv-stage-number">1</span>
+        <span class="lcv-stage-name">Understand</span>
+      </button>
+
+      <span class="lcv-journey-arrow" aria-hidden="true">→</span>
+
+      <button
+        type="button"
+        class="lcv-journey-stage"
+        data-stage="deliver">
+
+        <span class="lcv-stage-number">2</span>
+        <span class="lcv-stage-name">Deliver</span>
+      </button>
+
+      <span class="lcv-journey-arrow" aria-hidden="true">→</span>
+
+      <button
+        type="button"
+        class="lcv-journey-stage"
+        data-stage="support">
+
+        <span class="lcv-stage-number">3</span>
+        <span class="lcv-stage-name">Support</span>
+      </button>
+
+      <span class="lcv-journey-arrow" aria-hidden="true">→</span>
+
+      <button
+        type="button"
+        class="lcv-journey-stage"
+        data-stage="grow">
+
+        <span class="lcv-stage-number">4</span>
+        <span class="lcv-stage-name">Grow</span>
+      </button>
+
+    </div>
+
+    <div class="lcv-journey-detail" id="lcvJourneyDetail"
+      aria-live="polite">
+
+      <div class="lcv-journey-symbol" aria-hidden="true">?</div>
+
+      <div>
+        <span class="lcv-detail-label">THE CUSTOMER MAY BE ASKING</span>
+
+        <h4>“Do you understand what we are trying to accomplish?”</h4>
+
+        <p>
+          Long-term value begins when the salesperson looks beyond a product
+          request and learns about the customer’s operation, goals,
+          constraints, decision process, and definition of success.
+        </p>
+
+        <div class="lcv-action-prompt">
+          <strong>Salesperson action:</strong>
+          Ask thoughtful questions before making a recommendation.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- BRANCHING SCENARIO -->
+  <div class="lcv-scenario-section">
+    <div class="lcv-section-heading lcv-light-heading">
+      <span class="lcv-step-label">PART 3</span>
+      <h3>Manage the Relationship</h3>
+
+      <p>
+        Meet Jordan, the manager of a growing agricultural operation. Your
+        company has an opportunity to support the business. Make three
+        decisions as the relationship develops.
+      </p>
+    </div>
+
+    <div class="lcv-scenario-progress">
+      <div>
+        <span id="lcvRoundLabel">Decision 1 of 3</span>
+        <strong id="lcvRoundTitle">The First Conversation</strong>
+      </div>
+
+      <div class="lcv-progress-track" aria-hidden="true">
+        <div class="lcv-progress-fill" id="lcvProgressFill"></div>
+      </div>
+    </div>
+
+    <div class="lcv-scenario-card">
+
+      <div class="lcv-scenario-context">
+        <span class="lcv-scenario-tag">CUSTOMER SITUATION</span>
+
+        <p id="lcvScenarioText">
+          Jordan asks about one of your company’s products. You know the
+          product well, but you have not yet learned much about the operation.
+          How do you begin?
+        </p>
+      </div>
+
+      <div class="lcv-choice-list" id="lcvChoiceList">
+
+        <button type="button" class="lcv-choice" data-choice="0">
+          Give Jordan a complete overview of the product and ask for the order.
+        </button>
+
+        <button type="button" class="lcv-choice" data-choice="1">
+          Ask what prompted the interest and what Jordan hopes to improve.
+        </button>
+
+        <button type="button" class="lcv-choice" data-choice="2">
+          Offer the lowest available price before a competitor has a chance.
+        </button>
+
+      </div>
+
+      <div class="lcv-feedback hidden" id="lcvScenarioFeedback"
+        aria-live="polite"></div>
+
+      <button
+        type="button"
+        class="lcv-next-button hidden"
+        id="lcvNextButton">
+        Continue the Relationship
+      </button>
+    </div>
+
+
+    <!-- RELATIONSHIP INDICATORS -->
+    <div class="lcv-indicators">
+      <div class="lcv-indicator">
+        <div class="lcv-indicator-heading">
+          <span>Trust</span>
+          <strong id="lcvTrustLabel">Developing</strong>
+        </div>
+
+        <div class="lcv-indicator-track">
+          <div class="lcv-indicator-fill" id="lcvTrustBar"></div>
+        </div>
+      </div>
+
+      <div class="lcv-indicator">
+        <div class="lcv-indicator-heading">
+          <span>Customer Understanding</span>
+          <strong id="lcvUnderstandingLabel">Developing</strong>
+        </div>
+
+        <div class="lcv-indicator-track">
+          <div class="lcv-indicator-fill"
+            id="lcvUnderstandingBar"></div>
+        </div>
+      </div>
+
+      <div class="lcv-indicator">
+        <div class="lcv-indicator-heading">
+          <span>Future Opportunity</span>
+          <strong id="lcvOpportunityLabel">Developing</strong>
+        </div>
+
+        <div class="lcv-indicator-track">
+          <div class="lcv-indicator-fill"
+            id="lcvOpportunityBar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FINAL RESULT -->
+  <div class="lcv-result-section hidden" id="lcvResultSection"
+    aria-live="polite">
+
+    <span class="lcv-step-label">YOUR RELATIONSHIP OUTLOOK</span>
+
+    <div class="lcv-result-grid">
+      <div>
+        <h3 id="lcvResultTitle">You Built a Strong Foundation</h3>
+        <p id="lcvResultText"></p>
+      </div>
+
+      <div class="lcv-result-badge">
+        <span>Relationship Mindset</span>
+        <strong id="lcvResultScore">Strong</strong>
+      </div>
+    </div>
+
+    <div class="lcv-result-insight">
+      <strong>Notice what happened:</strong>
+
+      <p>
+        No single decision created the full value of this customer
+        relationship. Value developed through a pattern of listening,
+        delivering, following up, and remaining useful.
+      </p>
+    </div>
+
+    <button type="button" class="lcv-restart-button"
+      id="lcvRestartButton">
+      Try the Scenario Again
+    </button>
+  </div>
+
+
+  <!-- SORTING ACTIVITY -->
+  <div class="lcv-section">
+    <div class="lcv-section-heading">
+      <span class="lcv-step-label">PART 4</span>
+      <h3>Which Actions Build Future Value?</h3>
+
+      <p>
+        Select every action that supports the long-term health of a customer
+        relationship. Choose all that apply.
+      </p>
+    </div>
+
+    <div class="lcv-action-grid">
+
+      <label class="lcv-check-card">
+        <input type="checkbox" value="correct">
+        <span>
+          <strong>Learn how the customer measures success.</strong>
+          <small>
+            Understand the outcomes that matter to their business.
+          </small>
+        </span>
+      </label>
+
+      <label class="lcv-check-card">
+        <input type="checkbox" value="incorrect">
+        <span>
+          <strong>Concentrate only on the largest immediate order.</strong>
+          <small>
+            Treat the current transaction as the complete opportunity.
+          </small>
+        </span>
+      </label>
+
+      <label class="lcv-check-card">
+        <input type="checkbox" value="correct">
+        <span>
+          <strong>Follow up after implementation.</strong>
+          <small>
+            Confirm that promises were fulfilled and problems were addressed.
+          </small>
+        </span>
+      </label>
+
+      <label class="lcv-check-card">
+        <input type="checkbox" value="correct">
+        <span>
+          <strong>Watch for changes in the customer’s environment.</strong>
+          <small>
+            Recognize new pressures, goals, and opportunities as they emerge.
+          </small>
+        </span>
+      </label>
+
+      <label class="lcv-check-card">
+        <input type="checkbox" value="incorrect">
+        <span>
+          <strong>Wait until the next sales promotion to reconnect.</strong>
+          <small>
+            Contact the customer only when you have something to sell.
+          </small>
+        </span>
+      </label>
+
+      <label class="lcv-check-card">
+        <input type="checkbox" value="correct">
+        <span>
+          <strong>Be honest when another approach may fit better.</strong>
+          <small>
+            Protect credibility instead of forcing an unsuitable sale.
+          </small>
+        </span>
+      </label>
+
+    </div>
+
+    <button type="button" class="lcv-check-button"
+      id="lcvCheckActions">
+      Check My Choices
+    </button>
+
+    <div class="lcv-action-feedback hidden"
+      id="lcvActionFeedback"
+      aria-live="polite"></div>
+  </div>
+
+
+  <!-- REFLECTION -->
+  <div class="lcv-reflection">
+    <div class="lcv-reflection-heading">
+      <span class="lcv-step-label">FINAL REFLECTION</span>
+      <h3>Apply the Relationship Mindset</h3>
+
+      <p>
+        Think about a current or potential customer. What could you do now
+        that would create value beyond the next purchase?
+      </p>
+    </div>
+
+    <label for="lcvReflectionInput">
+      One action I could take is:
+    </label>
+
+    <textarea
+      id="lcvReflectionInput"
+      rows="4"
+      placeholder="For example: learn more about the customer’s long-term goals, follow up on a recent recommendation, or connect them with a useful resource."></textarea>
+
+    <div class="lcv-reflection-actions">
+      <button type="button" id="lcvSaveReflection">
+        Complete My Reflection
+      </button>
+
+      <span id="lcvReflectionStatus" aria-live="polite"></span>
+    </div>
+  </div>
+
+
+  <!-- TAKEAWAY -->
+  <div class="lcv-takeaway">
+    <div class="lcv-takeaway-symbol" aria-hidden="true">∞</div>
 
     <div>
-      <h3>Look beyond the immediate sale</h3>
-      <p>
-        Lifetime customer value is a way of viewing a customer according to
-        the potential of the entire relationship—not simply the size of the
-        opportunity in front of you today.
-      </p>
+      <span>KEY TAKEAWAY</span>
 
       <p>
-        This perspective changes the question from
-        <strong>“What can I sell right now?”</strong> to
-        <strong>“What could we accomplish together over time?”</strong>
+        Lifetime customer value is not simply what a customer may purchase.
+        It is the potential created when both organizations continue learning,
+        solving problems, and succeeding together.
       </p>
     </div>
   </div>
 
-  <div class="lcv-section">
-    <h3>What creates long-term value?</h3>
-    <p class="lcv-instruction">
-      Select each part of the relationship to explore it.
-    </p>
-
-    <div class="lcv-grid">
-      <button class="lcv-card" type="button"
-        data-detail="Trust grows when customers experience honesty, consistency, and follow-through. Trust makes future conversations more open and productive.">
-        <span class="lcv-card-number">01</span>
-        <strong>Trust</strong>
-        <small>Can the customer rely on you?</small>
-      </button>
-
-      <button class="lcv-card" type="button"
-        data-detail="Understanding the customer’s operation, priorities, and changing environment allows you to remain useful as new needs emerge.">
-        <span class="lcv-card-number">02</span>
-        <strong>Understanding</strong>
-        <small>Do you know what success means to them?</small>
-      </button>
-
-      <button class="lcv-card" type="button"
-        data-detail="The relationship becomes stronger when your products, services, knowledge, and support help the customer achieve meaningful outcomes.">
-        <span class="lcv-card-number">03</span>
-        <strong>Customer Success</strong>
-        <small>Are they better because you are involved?</small>
-      </button>
-
-      <button class="lcv-card" type="button"
-        data-detail="Follow-up after a decision protects the customer’s experience, addresses problems, and often becomes preparation for the next opportunity.">
-        <span class="lcv-card-number">04</span>
-        <strong>Continued Support</strong>
-        <small>What happens after the purchase?</small>
-      </button>
-    </div>
-
-    <div class="lcv-detail" id="lcvDetail" aria-live="polite">
-      Choose a card to see how it contributes to the relationship.
-    </div>
-  </div>
-
-  <div class="lcv-scenario">
-    <div class="lcv-scenario-copy">
-      <span class="lcv-eyebrow">QUICK DECISION</span>
-      <h3>A customer reports a problem after purchasing.</h3>
-      <p>Which response reflects a lifetime-value mindset?</p>
-    </div>
-
-    <div class="lcv-choices">
-      <button type="button" class="lcv-choice" data-answer="limited">
-        Explain that the sale is complete and direct them to a general
-        support number.
-      </button>
-
-      <button type="button" class="lcv-choice" data-answer="strong">
-        Help investigate the issue, coordinate the right resources, and
-        follow up until the customer knows what happens next.
-      </button>
-
-      <button type="button" class="lcv-choice" data-answer="limited">
-        Avoid contacting them until there is another product to discuss.
-      </button>
-    </div>
-
-    <div class="lcv-feedback" id="lcvFeedback" aria-live="polite">
-      Select the response you believe creates the strongest long-term value.
-    </div>
-  </div>
-
-  <div class="lcv-takeaway">
-    <span class="lcv-takeaway-label">KEY TAKEAWAY</span>
-    <p>
-      Lifetime customer value is not only about what a customer may purchase.
-      It is about the value that can be created when both organizations continue
-      learning, solving problems, and succeeding together.
-    </p>
-  </div>
 </section>
 
-<style>
-  .lcv-lesson {
-    --gold: #cfb991;
-    --dark-gold: #8e6f3e;
-    --black: #1f1f1f;
-    --cream: #faf7f1;
-    --white: #ffffff;
-    --gray: #606060;
-    --green: #2f6b4f;
-    --red: #9f3a38;
 
-    max-width: 1050px;
+<style>
+  .lcv-experience {
+    --lcv-gold: #cfb991;
+    --lcv-dark-gold: #8e6f3e;
+    --lcv-black: #1f1f1f;
+    --lcv-charcoal: #2d2d2d;
+    --lcv-cream: #faf7f1;
+    --lcv-light-gold: #f3ecdf;
+    --lcv-white: #ffffff;
+    --lcv-gray: #666666;
+    --lcv-light-gray: #eeeeee;
+    --lcv-green: #2f6b4f;
+    --lcv-light-green: #e8f3ed;
+    --lcv-red: #9f3a38;
+    --lcv-light-red: #f9e9e8;
+
+    max-width: 1100px;
     margin: 30px auto;
-    color: var(--black);
+    color: var(--lcv-black);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.65;
   }
 
-  .lcv-lesson * {
+  .lcv-experience * {
     box-sizing: border-box;
   }
 
+  .lcv-experience button,
+  .lcv-experience textarea,
+  .lcv-experience input {
+    font: inherit;
+  }
+
+  .lcv-experience button {
+    cursor: pointer;
+  }
+
+  .lcv-experience button:focus-visible,
+  .lcv-experience textarea:focus-visible,
+  .lcv-experience input:focus-visible {
+    outline: 3px solid rgba(142, 111, 62, 0.35);
+    outline-offset: 3px;
+  }
+
+  .lcv-experience .hidden {
+    display: none;
+  }
+
+
+  /* HERO */
+
   .lcv-hero {
-    padding: 46px;
-    color: var(--white);
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 30px;
+    align-items: center;
+    padding: 52px;
+    overflow: hidden;
+    color: var(--lcv-white);
     background:
-      radial-gradient(circle at 92% 15%, rgba(207, 185, 145, 0.24), transparent 28%),
-      var(--black);
+      radial-gradient(
+        circle at 88% 16%,
+        rgba(207, 185, 145, 0.28),
+        transparent 30%
+      ),
+      var(--lcv-black);
     border-radius: 28px;
   }
 
-  .lcv-hero h2 {
-    margin: 5px 0 12px;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    line-height: 1.05;
+  .lcv-hero-content {
+    position: relative;
+    z-index: 2;
   }
 
-  .lcv-hero p {
-    max-width: 750px;
-    margin: 0;
-    font-size: 1.08rem;
-    color: #f2f2f2;
-  }
-
-  .lcv-eyebrow {
+  .lcv-eyebrow,
+  .lcv-step-label {
     display: inline-block;
-    color: var(--gold);
+    color: var(--lcv-dark-gold);
     font-size: 0.76rem;
     font-weight: 800;
     letter-spacing: 0.14em;
   }
 
-  .lcv-intro {
-    display: grid;
-    grid-template-columns: 90px 1fr;
-    gap: 24px;
-    align-items: start;
-    margin: 26px 0;
-    padding: 30px;
-    background: var(--cream);
-    border: 1px solid #e8dfd1;
-    border-radius: 24px;
+  .lcv-hero .lcv-eyebrow {
+    color: var(--lcv-gold);
   }
 
-  .lcv-icon {
-    display: grid;
-    place-items: center;
-    width: 76px;
-    height: 76px;
-    color: var(--black);
-    background: var(--gold);
-    border-radius: 50%;
-    font-size: 2.7rem;
+  .lcv-hero h2 {
+    max-width: 720px;
+    margin: 5px 0 15px;
+    font-size: clamp(2.25rem, 6vw, 4.2rem);
+    line-height: 1.02;
+  }
+
+  .lcv-hero p {
+    max-width: 760px;
+    margin: 0;
+    color: #f1f1f1;
+    font-size: 1.08rem;
+  }
+
+  .lcv-hero-question {
+    max-width: 700px;
+    margin-top: 25px;
+    padding: 16px 18px;
+    color: var(--lcv-black);
+    background: var(--lcv-gold);
+    border-radius: 15px;
+    font-weight: 700;
+  }
+
+  .lcv-hero-question span {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 0.76rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .lcv-infinity {
+    position: relative;
+    z-index: 1;
+    color: var(--lcv-gold);
+    font-size: clamp(7rem, 15vw, 12rem);
     font-weight: 800;
+    line-height: 1;
+    text-align: center;
+    opacity: 0.9;
   }
 
-  .lcv-intro h3,
-  .lcv-section h3,
-  .lcv-scenario h3 {
-    margin: 0 0 8px;
-    line-height: 1.25;
-  }
 
-  .lcv-intro p:last-child {
-    margin-bottom: 0;
-  }
+  /* GENERAL SECTIONS */
 
-  .lcv-section {
-    padding: 32px;
+  .lcv-section,
+  .lcv-reflection {
+    margin-top: 26px;
+    padding: 36px;
+    background: var(--lcv-white);
     border: 1px solid #dedede;
     border-radius: 24px;
   }
 
-  .lcv-instruction {
-    margin-top: 0;
-    color: var(--gray);
+  .lcv-soft-section {
+    background: var(--lcv-cream);
+    border-color: #e8dfd1;
   }
 
-  .lcv-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 14px;
+  .lcv-section-heading {
+    max-width: 810px;
+    margin-bottom: 26px;
   }
 
-  .lcv-card {
-    min-height: 175px;
-    padding: 20px;
-    text-align: left;
-    color: var(--black);
-    background: var(--white);
-    border: 2px solid #e4e4e4;
-    border-radius: 18px;
-    cursor: pointer;
-    transition: transform 0.2s ease, border-color 0.2s ease,
-      background 0.2s ease;
+  .lcv-section-heading h3,
+  .lcv-reflection h3,
+  .lcv-result-section h3 {
+    margin: 5px 0 8px;
+    font-size: clamp(1.55rem, 3vw, 2.15rem);
+    line-height: 1.2;
   }
 
-  .lcv-card:hover,
-  .lcv-card:focus-visible {
-    transform: translateY(-3px);
-    border-color: var(--dark-gold);
+  .lcv-section-heading p,
+  .lcv-reflection-heading p {
+    margin: 0;
+    color: var(--lcv-gray);
   }
 
-  .lcv-card.active {
-    background: var(--cream);
-    border-color: var(--dark-gold);
-  }
 
-  .lcv-card-number {
-    display: block;
-    margin-bottom: 25px;
-    color: var(--dark-gold);
-    font-size: 0.75rem;
-    font-weight: 800;
-  }
+  /* LENS COMPARISON */
 
-  .lcv-card strong,
-  .lcv-card small {
-    display: block;
-  }
-
-  .lcv-card strong {
-    margin-bottom: 5px;
-    font-size: 1.05rem;
-  }
-
-  .lcv-card small {
-    color: var(--gray);
-    font-size: 0.88rem;
-    line-height: 1.4;
-  }
-
-  .lcv-detail {
-    margin-top: 18px;
-    padding: 18px 20px;
-    background: var(--black);
-    color: var(--white);
+  .lcv-lens-controls {
+    display: inline-flex;
+    gap: 8px;
+    margin-bottom: 18px;
+    padding: 6px;
+    background: var(--lcv-light-gray);
     border-radius: 16px;
   }
 
-  .lcv-scenario {
+  .lcv-lens-button {
+    padding: 11px 17px;
+    color: var(--lcv-black);
+    background: transparent;
+    border: 0;
+    border-radius: 11px;
+    font-weight: 700;
+  }
+
+  .lcv-lens-button.active {
+    color: var(--lcv-white);
+    background: var(--lcv-black);
+  }
+
+  .lcv-lens-panel {
+    padding: 27px;
+    background: var(--lcv-cream);
+    border: 1px solid #e7dece;
+    border-radius: 20px;
+  }
+
+  .lcv-lens-title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+
+  .lcv-lens-icon {
     display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
-    gap: 30px;
+    flex: 0 0 52px;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    color: var(--lcv-white);
+    background: var(--lcv-dark-gold);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .lcv-lens-title small,
+  .lcv-lens-title strong {
+    display: block;
+  }
+
+  .lcv-lens-title small {
+    color: var(--lcv-gray);
+  }
+
+  .lcv-lens-title strong {
+    margin-top: 2px;
+    font-size: 1.22rem;
+  }
+
+  .lcv-lens-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 13px;
+  }
+
+  .lcv-lens-item {
+    padding: 17px;
+    background: var(--lcv-white);
+    border: 1px solid #e6e0d7;
+    border-radius: 15px;
+  }
+
+  .lcv-lens-item span {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--lcv-dark-gold);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .lcv-lens-item p {
+    margin: 0;
+    font-size: 0.94rem;
+    line-height: 1.5;
+  }
+
+
+  /* JOURNEY */
+
+  .lcv-journey {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 28px 0;
+  }
+
+  .lcv-journey-stage {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    min-width: 0;
+    padding: 15px 10px;
+    color: var(--lcv-black);
+    background: var(--lcv-white);
+    border: 2px solid #ddd4c5;
+    border-radius: 16px;
+  }
+
+  .lcv-journey-stage.active {
+    color: var(--lcv-white);
+    background: var(--lcv-black);
+    border-color: var(--lcv-black);
+  }
+
+  .lcv-stage-number {
+    display: grid;
+    place-items: center;
+    width: 29px;
+    height: 29px;
+    color: var(--lcv-black);
+    background: var(--lcv-gold);
+    border-radius: 50%;
+    font-size: 0.82rem;
+    font-weight: 800;
+  }
+
+  .lcv-stage-name {
+    font-weight: 800;
+  }
+
+  .lcv-journey-arrow {
+    padding: 0 9px;
+    color: var(--lcv-dark-gold);
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+
+  .lcv-journey-detail {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    gap: 22px;
+    align-items: start;
+    padding: 27px;
+    color: var(--lcv-white);
+    background: var(--lcv-black);
+    border-radius: 19px;
+  }
+
+  .lcv-journey-symbol {
+    display: grid;
+    place-items: center;
+    width: 65px;
+    height: 65px;
+    color: var(--lcv-black);
+    background: var(--lcv-gold);
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  .lcv-detail-label {
+    color: var(--lcv-gold);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+  }
+
+  .lcv-journey-detail h4 {
+    margin: 5px 0 8px;
+    font-size: 1.3rem;
+    line-height: 1.3;
+  }
+
+  .lcv-journey-detail p {
+    margin: 0;
+    color: #e4e4e4;
+  }
+
+  .lcv-action-prompt {
+    margin-top: 17px;
+    padding: 13px 15px;
+    color: var(--lcv-black);
+    background: var(--lcv-gold);
+    border-radius: 12px;
+  }
+
+
+  /* SCENARIO */
+
+  .lcv-scenario-section {
     margin-top: 26px;
-    padding: 34px;
-    background: var(--black);
-    color: var(--white);
+    padding: 38px;
+    color: var(--lcv-white);
+    background: var(--lcv-black);
     border-radius: 24px;
   }
 
-  .lcv-scenario-copy p {
+  .lcv-light-heading .lcv-step-label {
+    color: var(--lcv-gold);
+  }
+
+  .lcv-light-heading p {
     color: #dedede;
   }
 
-  .lcv-choices {
+  .lcv-scenario-progress {
+    display: grid;
+    grid-template-columns: minmax(210px, 0.55fr) 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+
+  .lcv-scenario-progress span,
+  .lcv-scenario-progress strong {
+    display: block;
+  }
+
+  .lcv-scenario-progress span {
+    color: var(--lcv-gold);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .lcv-progress-track,
+  .lcv-indicator-track {
+    overflow: hidden;
+    height: 10px;
+    background: #4d4d4d;
+    border-radius: 999px;
+  }
+
+  .lcv-progress-fill {
+    width: 33.33%;
+    height: 100%;
+    background: var(--lcv-gold);
+    border-radius: inherit;
+    transition: width 0.35s ease;
+  }
+
+  .lcv-scenario-card {
+    padding: 27px;
+    color: var(--lcv-black);
+    background: var(--lcv-white);
+    border-radius: 19px;
+  }
+
+  .lcv-scenario-context {
+    margin-bottom: 21px;
+    padding: 19px;
+    background: var(--lcv-cream);
+    border-left: 5px solid var(--lcv-gold);
+    border-radius: 0 14px 14px 0;
+  }
+
+  .lcv-scenario-tag {
+    color: var(--lcv-dark-gold);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+  }
+
+  .lcv-scenario-context p {
+    margin: 5px 0 0;
+  }
+
+  .lcv-choice-list {
     display: grid;
     gap: 11px;
   }
 
   .lcv-choice {
     width: 100%;
-    padding: 15px 17px;
-    color: var(--black);
-    background: var(--white);
-    border: 2px solid transparent;
+    padding: 16px 18px;
+    color: var(--lcv-black);
+    background: var(--lcv-white);
+    border: 2px solid #dddddd;
     border-radius: 14px;
     text-align: left;
-    line-height: 1.45;
+    line-height: 1.5;
+    transition:
+      border-color 0.2s ease,
+      background 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .lcv-choice:hover:not(:disabled) {
+    transform: translateY(-2px);
+    border-color: var(--lcv-dark-gold);
+  }
+
+  .lcv-choice:disabled {
+    cursor: default;
+  }
+
+  .lcv-choice.selected-strong {
+    background: var(--lcv-light-green);
+    border-color: var(--lcv-green);
+  }
+
+  .lcv-choice.selected-limited {
+    background: var(--lcv-light-red);
+    border-color: var(--lcv-red);
+  }
+
+  .lcv-feedback,
+  .lcv-action-feedback {
+    margin-top: 17px;
+    padding: 17px 18px;
+    border-radius: 14px;
+  }
+
+  .lcv-feedback.strong,
+  .lcv-action-feedback.strong {
+    color: #214c39;
+    background: var(--lcv-light-green);
+    border: 1px solid #9dc9b2;
+  }
+
+  .lcv-feedback.limited,
+  .lcv-action-feedback.limited {
+    color: #702925;
+    background: var(--lcv-light-red);
+    border: 1px solid #e4aaa7;
+  }
+
+  .lcv-feedback p,
+  .lcv-action-feedback p {
+    margin: 4px 0 0;
+  }
+
+  .lcv-next-button,
+  .lcv-restart-button,
+  .lcv-check-button,
+  .lcv-reflection-actions button {
+    margin-top: 17px;
+    padding: 13px 19px;
+    color: var(--lcv-black);
+    background: var(--lcv-gold);
+    border: 0;
+    border-radius: 13px;
+    font-weight: 800;
+  }
+
+  .lcv-next-button:hover,
+  .lcv-restart-button:hover,
+  .lcv-check-button:hover,
+  .lcv-reflection-actions button:hover {
+    background: #dbc8a7;
+  }
+
+
+  /* INDICATORS */
+
+  .lcv-indicators {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 19px;
+  }
+
+  .lcv-indicator {
+    padding: 16px;
+    background: var(--lcv-charcoal);
+    border: 1px solid #484848;
+    border-radius: 14px;
+  }
+
+  .lcv-indicator-heading {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    font-size: 0.88rem;
+  }
+
+  .lcv-indicator-heading strong {
+    color: var(--lcv-gold);
+  }
+
+  .lcv-indicator-fill {
+    width: 25%;
+    height: 100%;
+    background: var(--lcv-gold);
+    border-radius: inherit;
+    transition: width 0.4s ease;
+  }
+
+
+  /* RESULT */
+
+  .lcv-result-section {
+    margin-top: 26px;
+    padding: 35px;
+    background: var(--lcv-light-gold);
+    border: 1px solid #dfcfb4;
+    border-radius: 24px;
+  }
+
+  .lcv-result-grid {
+    display: grid;
+    grid-template-columns: 1fr 190px;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .lcv-result-grid p {
+    margin-bottom: 0;
+  }
+
+  .lcv-result-badge {
+    padding: 21px;
+    color: var(--lcv-white);
+    background: var(--lcv-black);
+    border-radius: 17px;
+    text-align: center;
+  }
+
+  .lcv-result-badge span,
+  .lcv-result-badge strong {
+    display: block;
+  }
+
+  .lcv-result-badge span {
+    color: var(--lcv-gold);
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .lcv-result-badge strong {
+    margin-top: 5px;
+    font-size: 1.4rem;
+  }
+
+  .lcv-result-insight {
+    margin-top: 21px;
+    padding: 17px 19px;
+    background: var(--lcv-white);
+    border-left: 5px solid var(--lcv-dark-gold);
+    border-radius: 0 14px 14px 0;
+  }
+
+  .lcv-result-insight p {
+    margin: 4px 0 0;
+  }
+
+
+  /* ACTION SELECTION */
+
+  .lcv-action-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+  }
+
+  .lcv-check-card {
+    display: flex;
+    gap: 13px;
+    align-items: flex-start;
+    padding: 18px;
+    background: var(--lcv-cream);
+    border: 2px solid #e5ded2;
+    border-radius: 15px;
     cursor: pointer;
   }
 
-  .lcv-choice:hover,
-  .lcv-choice:focus-visible {
-    border-color: var(--gold);
+  .lcv-check-card:hover {
+    border-color: var(--lcv-dark-gold);
   }
 
-  .lcv-choice.correct {
-    background: #eaf5ef;
-    border-color: var(--green);
+  .lcv-check-card input {
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    accent-color: var(--lcv-dark-gold);
   }
 
-  .lcv-choice.incorrect {
-    background: #fbeceb;
-    border-color: var(--red);
+  .lcv-check-card strong,
+  .lcv-check-card small {
+    display: block;
   }
 
-  .lcv-feedback {
-    margin-top: 14px;
-    padding: 14px 16px;
-    color: var(--black);
-    background: var(--gold);
-    border-radius: 13px;
+  .lcv-check-card small {
+    margin-top: 4px;
+    color: var(--lcv-gray);
+    line-height: 1.45;
   }
+
+  .lcv-check-card.correct-review {
+    background: var(--lcv-light-green);
+    border-color: var(--lcv-green);
+  }
+
+  .lcv-check-card.incorrect-review {
+    background: var(--lcv-light-red);
+    border-color: var(--lcv-red);
+  }
+
+
+  /* REFLECTION */
+
+  .lcv-reflection {
+    background: var(--lcv-black);
+    color: var(--lcv-white);
+    border: 0;
+  }
+
+  .lcv-reflection .lcv-step-label {
+    color: var(--lcv-gold);
+  }
+
+  .lcv-reflection-heading p {
+    color: #dedede;
+  }
+
+  .lcv-reflection label {
+    display: block;
+    margin: 24px 0 7px;
+    font-weight: 800;
+  }
+
+  .lcv-reflection textarea {
+    width: 100%;
+    min-height: 130px;
+    padding: 15px;
+    color: var(--lcv-black);
+    background: var(--lcv-white);
+    border: 2px solid transparent;
+    border-radius: 14px;
+    resize: vertical;
+  }
+
+  .lcv-reflection-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .lcv-reflection-actions span {
+    color: var(--lcv-gold);
+    font-weight: 700;
+  }
+
+
+  /* TAKEAWAY */
 
   .lcv-takeaway {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    gap: 20px;
+    align-items: center;
     margin-top: 26px;
-    padding: 27px 30px;
-    background: var(--cream);
-    border-left: 7px solid var(--gold);
-    border-radius: 0 18px 18px 0;
+    padding: 28px 31px;
+    background: var(--lcv-cream);
+    border-left: 7px solid var(--lcv-gold);
+    border-radius: 0 19px 19px 0;
   }
 
-  .lcv-takeaway-label {
-    color: var(--dark-gold);
+  .lcv-takeaway-symbol {
+    display: grid;
+    place-items: center;
+    width: 65px;
+    height: 65px;
+    color: var(--lcv-black);
+    background: var(--lcv-gold);
+    border-radius: 50%;
+    font-size: 2.4rem;
+    font-weight: 800;
+  }
+
+  .lcv-takeaway span {
+    color: var(--lcv-dark-gold);
     font-size: 0.76rem;
     font-weight: 800;
     letter-spacing: 0.12em;
   }
 
   .lcv-takeaway p {
-    margin: 7px 0 0;
+    margin: 5px 0 0;
     font-size: 1.08rem;
-    font-weight: 600;
+    font-weight: 700;
   }
 
-  @media (max-width: 800px) {
-    .lcv-grid {
+
+  /* RESPONSIVE */
+
+  @media (max-width: 850px) {
+    .lcv-hero {
+      grid-template-columns: 1fr;
+    }
+
+    .lcv-infinity {
+      position: absolute;
+      right: 20px;
+      bottom: -28px;
+      opacity: 0.18;
+    }
+
+    .lcv-lens-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .lcv-scenario {
+    .lcv-scenario-progress {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .lcv-indicators {
       grid-template-columns: 1fr;
     }
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 680px) {
     .lcv-hero,
     .lcv-section,
-    .lcv-scenario {
+    .lcv-scenario-section,
+    .lcv-result-section,
+    .lcv-reflection {
       padding: 25px 20px;
       border-radius: 20px;
     }
 
-    .lcv-intro {
+    .lcv-lens-controls {
+      display: grid;
+      width: 100%;
+    }
+
+    .lcv-lens-button {
+      width: 100%;
+    }
+
+    .lcv-lens-grid,
+    .lcv-action-grid,
+    .lcv-result-grid {
       grid-template-columns: 1fr;
-      padding: 24px 20px;
     }
 
-    .lcv-grid {
+    .lcv-journey {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    .lcv-journey-arrow {
+      transform: rotate(90deg);
+      text-align: center;
+    }
+
+    .lcv-journey-detail,
+    .lcv-takeaway {
       grid-template-columns: 1fr;
     }
 
-    .lcv-card {
-      min-height: auto;
-    }
-
-    .lcv-card-number {
-      margin-bottom: 12px;
+    .lcv-result-badge {
+      text-align: left;
     }
   }
 </style>
 
+
 <script>
   (function () {
-    const lesson = document.querySelector(".lcv-lesson");
+    const experience = document.querySelector(".lcv-experience");
 
-    if (!lesson) return;
+    if (!experience) {
+      return;
+    }
 
-    const cards = lesson.querySelectorAll(".lcv-card");
-    const detail = lesson.querySelector("#lcvDetail");
-    const choices = lesson.querySelectorAll(".lcv-choice");
-    const feedback = lesson.querySelector("#lcvFeedback");
 
-    cards.forEach(function (card) {
-      card.addEventListener("click", function () {
-        cards.forEach(function (item) {
+    /* -----------------------------------------
+       PART 1: MINDSET LENS
+    ----------------------------------------- */
+
+    const lensData = {
+      immediate: {
+        icon: "→",
+        question: "“How can I complete this sale?”",
+        items: [
+          {
+            label: "Focus",
+            text: "The current product, order, or purchasing decision."
+          },
+          {
+            label: "Time Horizon",
+            text: "What can happen during the current sales cycle?"
+          },
+          {
+            label: "Success Signal",
+            text: "The customer agrees to purchase."
+          },
+          {
+            label: "Potential Risk",
+            text:
+              "The customer may feel forgotten once the transaction is complete."
+          }
+        ]
+      },
+
+      longterm: {
+        icon: "∞",
+        question: "“How can we continue creating value together?”",
+        items: [
+          {
+            label: "Focus",
+            text:
+              "The customer’s goals, experience, and evolving business needs."
+          },
+          {
+            label: "Time Horizon",
+            text:
+              "How could the relationship develop across many decisions?"
+          },
+          {
+            label: "Success Signal",
+            text:
+              "The customer achieves meaningful results and wants to continue working together."
+          },
+          {
+            label: "Potential Benefit",
+            text:
+              "Trust and shared success create repeat opportunities, stronger insight, and mutual growth."
+          }
+        ]
+      }
+    };
+
+    const lensButtons =
+      experience.querySelectorAll(".lcv-lens-button");
+
+    const lensPanel =
+      experience.querySelector("#lcvLensPanel");
+
+    function renderLens(lensName) {
+      const lens = lensData[lensName];
+
+      lensPanel.innerHTML = `
+        <div class="lcv-lens-title">
+          <span class="lcv-lens-icon">${lens.icon}</span>
+
+          <div>
+            <small>The salesperson is primarily asking:</small>
+            <strong>${lens.question}</strong>
+          </div>
+        </div>
+
+        <div class="lcv-lens-grid">
+          ${lens.items.map(function (item) {
+            return `
+              <div class="lcv-lens-item">
+                <span>${item.label}</span>
+                <p>${item.text}</p>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+
+    lensButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        lensButtons.forEach(function (item) {
           item.classList.remove("active");
         });
 
-        card.classList.add("active");
-        detail.textContent = card.dataset.detail;
+        button.classList.add("active");
+        renderLens(button.dataset.lens);
       });
     });
 
-    choices.forEach(function (choice) {
-      choice.addEventListener("click", function () {
-        choices.forEach(function (item) {
-          item.classList.remove("correct", "incorrect");
+
+    /* -----------------------------------------
+       PART 2: RELATIONSHIP JOURNEY
+    ----------------------------------------- */
+
+    const journeyData = {
+      understand: {
+        symbol: "?",
+        question:
+          "“Do you understand what we are trying to accomplish?”",
+        explanation:
+          "Long-term value begins when the salesperson looks beyond a product request and learns about the customer’s operation, goals, constraints, decision process, and definition of success.",
+        action:
+          "Ask thoughtful questions before making a recommendation."
+      },
+
+      deliver: {
+        symbol: "✓",
+        question:
+          "“Will your recommendation create the result you promised?”",
+        explanation:
+          "The customer evaluates whether the recommendation fits the situation, performs as expected, and supports meaningful business outcomes.",
+        action:
+          "Set accurate expectations and connect the offer to the customer’s priorities."
+      },
+
+      support: {
+        symbol: "↻",
+        question:
+          "“Will you remain involved when we need help?”",
+        explanation:
+          "The experience after the decision often determines whether trust grows or weakens. Follow-up, responsiveness, and problem resolution demonstrate that the relationship matters beyond the purchase.",
+        action:
+          "Check progress, address concerns, and make sure commitments are fulfilled."
+      },
+
+      grow: {
+        symbol: "↗",
+        question:
+          "“Can you help us prepare for what comes next?”",
+        explanation:
+          "As the customer’s business changes, a valuable salesperson continues learning and brings relevant ideas, information, resources, and connections.",
+        action:
+          "Watch for emerging needs and remain useful between purchasing decisions."
+      }
+    };
+
+    const journeyButtons =
+      experience.querySelectorAll(".lcv-journey-stage");
+
+    const journeyDetail =
+      experience.querySelector("#lcvJourneyDetail");
+
+    function renderJourney(stageName) {
+      const stage = journeyData[stageName];
+
+      journeyDetail.innerHTML = `
+        <div class="lcv-journey-symbol" aria-hidden="true">
+          ${stage.symbol}
+        </div>
+
+        <div>
+          <span class="lcv-detail-label">
+            THE CUSTOMER MAY BE ASKING
+          </span>
+
+          <h4>${stage.question}</h4>
+
+          <p>${stage.explanation}</p>
+
+          <div class="lcv-action-prompt">
+            <strong>Salesperson action:</strong>
+            ${stage.action}
+          </div>
+        </div>
+      `;
+    }
+
+    journeyButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        journeyButtons.forEach(function (item) {
+          item.classList.remove("active");
         });
 
-        if (choice.dataset.answer === "strong") {
-          choice.classList.add("correct");
-          feedback.innerHTML =
-            "<strong>Strong choice.</strong> Supporting the customer after the purchase protects trust, improves their experience, and prepares the relationship for future opportunities.";
-        } else {
-          choice.classList.add("incorrect");
-          feedback.innerHTML =
-            "<strong>Think longer term.</strong> A completed transaction does not mean the relationship is complete. Follow-up and continued support help create future value.";
-        }
+        button.classList.add("active");
+        renderJourney(button.dataset.stage);
       });
     });
+
+
+    /* -----------------------------------------
+       PART 3: BRANCHING SCENARIO
+    ----------------------------------------- */
+
+    const scenarioRounds = [
+      {
+        title: "The First Conversation",
+        situation:
+          "Jordan asks about one of your company’s products. You know the product well, but you have not yet learned much about the operation. How do you begin?",
+        choices: [
+          {
+            text:
+              "Give Jordan a complete overview of the product and ask for the order.",
+            strength: "limited",
+            feedback:
+              "Product knowledge is useful, but beginning with a presentation may cause you to recommend before understanding what Jordan is trying to accomplish.",
+            impact: {
+              trust: 5,
+              understanding: 0,
+              opportunity: 5
+            }
+          },
+          {
+            text:
+              "Ask what prompted the interest and what Jordan hopes to improve.",
+            strength: "strong",
+            feedback:
+              "This creates space to learn about Jordan’s goals before deciding what should be recommended. Understanding creates the foundation for future value.",
+            impact: {
+              trust: 20,
+              understanding: 30,
+              opportunity: 20
+            }
+          },
+          {
+            text:
+              "Offer the lowest available price before a competitor has a chance.",
+            strength: "limited",
+            feedback:
+              "Price may matter, but leading with a discount reduces the conversation to the immediate transaction before you know what Jordan values.",
+            impact: {
+              trust: 0,
+              understanding: 0,
+              opportunity: 5
+            }
+          }
+        ]
+      },
+
+      {
+        title: "After the Purchase",
+        situation:
+          "Jordan purchases the recommended product. Several weeks later, you learn that adoption has been slower than expected. What do you do?",
+        choices: [
+          {
+            text:
+              "Wait for Jordan to contact you if the situation becomes serious.",
+            strength: "limited",
+            feedback:
+              "Waiting places the entire burden on the customer. A proactive check-in can reveal barriers before they damage results or confidence.",
+            impact: {
+              trust: 0,
+              understanding: 5,
+              opportunity: 0
+            }
+          },
+          {
+            text:
+              "Contact Jordan, ask what is creating difficulty, and coordinate appropriate support.",
+            strength: "strong",
+            feedback:
+              "This demonstrates that customer success matters after the purchase. It also helps you learn how the recommendation performs in the customer’s actual environment.",
+            impact: {
+              trust: 30,
+              understanding: 20,
+              opportunity: 20
+            }
+          },
+          {
+            text:
+              "Send information about a different product that may be easier to use.",
+            strength: "limited",
+            feedback:
+              "Introducing another product before understanding the problem may feel like another sales attempt rather than meaningful support.",
+            impact: {
+              trust: 0,
+              understanding: 5,
+              opportunity: 5
+            }
+          }
+        ]
+      },
+
+      {
+        title: "The Next Opportunity",
+        situation:
+          "Months later, a change in market conditions creates a new challenge for Jordan’s operation. You do not currently have a perfect product response. How do you proceed?",
+        choices: [
+          {
+            text:
+              "Avoid the topic until your company develops something you can sell.",
+            strength: "limited",
+            feedback:
+              "Remaining silent limits your usefulness. Customer value can also come from insight, information, connections, and honest guidance.",
+            impact: {
+              trust: 0,
+              understanding: 0,
+              opportunity: 0
+            }
+          },
+          {
+            text:
+              "Share relevant information, help Jordan think through the options, and be honest about your current limitations.",
+            strength: "strong",
+            feedback:
+              "A salesperson can create value without forcing a product into every situation. Honest guidance strengthens trust and protects future opportunities.",
+            impact: {
+              trust: 30,
+              understanding: 20,
+              opportunity: 30
+            }
+          },
+          {
+            text:
+              "Recommend your closest available product even though the fit is uncertain.",
+            strength: "limited",
+            feedback:
+              "A weak-fit recommendation may create a short-term sale but can place the longer relationship at risk.",
+            impact: {
+              trust: 0,
+              understanding: 5,
+              opportunity: 5
+            }
+          }
+        ]
+      }
+    ];
+
+    let currentRound = 0;
+
+    const relationshipState = {
+      trust: 25,
+      understanding: 25,
+      opportunity: 25
+    };
+
+    const roundLabel =
+      experience.querySelector("#lcvRoundLabel");
+
+    const roundTitle =
+      experience.querySelector("#lcvRoundTitle");
+
+    const scenarioText =
+      experience.querySelector("#lcvScenarioText");
+
+    const choiceList =
+      experience.querySelector("#lcvChoiceList");
+
+    const scenarioFeedback =
+      experience.querySelector("#lcvScenarioFeedback");
+
+    const nextButton =
+      experience.querySelector("#lcvNextButton");
+
+    const progressFill =
+      experience.querySelector("#lcvProgressFill");
+
+    const resultSection =
+      experience.querySelector("#lcvResultSection");
+
+    const resultTitle =
+      experience.querySelector("#lcvResultTitle");
+
+    const resultText =
+      experience.querySelector("#lcvResultText");
+
+    const resultScore =
+      experience.querySelector("#lcvResultScore");
+
+    function clampValue(value) {
+      return Math.max(0, Math.min(100, value));
+    }
+
+    function getIndicatorLabel(value) {
+      if (value >= 75) {
+        return "Strong";
+      }
+
+      if (value >= 45) {
+        return "Growing";
+      }
+
+      return "Developing";
+    }
+
+    function updateIndicators() {
+      const indicators = [
+        {
+          key: "trust",
+          bar: "#lcvTrustBar",
+          label: "#lcvTrustLabel"
+        },
+        {
+          key: "understanding",
+          bar: "#lcvUnderstandingBar",
+          label: "#lcvUnderstandingLabel"
+        },
+        {
+          key: "opportunity",
+          bar: "#lcvOpportunityBar",
+          label: "#lcvOpportunityLabel"
+        }
+      ];
+
+      indicators.forEach(function (indicator) {
+        const value = clampValue(
+          relationshipState[indicator.key]
+        );
+
+        experience.querySelector(indicator.bar).style.width =
+          value + "%";
+
+        experience.querySelector(indicator.label).textContent =
+          getIndicatorLabel(value);
+      });
+    }
+
+    function renderScenario() {
+      const round = scenarioRounds[currentRound];
+
+      roundLabel.textContent =
+        "Decision " + (currentRound + 1) + " of " +
+        scenarioRounds.length;
+
+      roundTitle.textContent = round.title;
+      scenarioText.textContent = round.situation;
+
+      progressFill.style.width =
+        ((currentRound + 1) / scenarioRounds.length * 100) + "%";
+
+      choiceList.innerHTML = round.choices.map(
+        function (choice, index) {
+          return `
+            <button
+              type="button"
+              class="lcv-choice"
+              data-choice="${index}">
+              ${choice.text}
+            </button>
+          `;
+        }
+      ).join("");
+
+      scenarioFeedback.className = "lcv-feedback hidden";
+      scenarioFeedback.innerHTML = "";
+
+      nextButton.classList.add("hidden");
+
+      const buttons =
+        choiceList.querySelectorAll(".lcv-choice");
+
+      buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          chooseScenarioOption(
+            Number(button.dataset.choice),
+            button
+          );
+        });
+      });
+    }
+
+    function chooseScenarioOption(choiceIndex, selectedButton) {
+      const round = scenarioRounds[currentRound];
+      const choice = round.choices[choiceIndex];
+
+      const buttons =
+        choiceList.querySelectorAll(".lcv-choice");
+
+      buttons.forEach(function (button) {
+        button.disabled = true;
+      });
+
+      selectedButton.classList.add(
+        choice.strength === "strong"
+          ? "selected-strong"
+          : "selected-limited"
+      );
+
+      relationshipState.trust += choice.impact.trust;
+      relationshipState.understanding +=
+        choice.impact.understanding;
+      relationshipState.opportunity +=
+        choice.impact.opportunity;
+
+      updateIndicators();
+
+      scenarioFeedback.className =
+        "lcv-feedback " + choice.strength;
+
+      scenarioFeedback.innerHTML = `
+        <strong>
+          ${choice.strength === "strong"
+            ? "Relationship-building choice"
+            : "Limited relationship choice"}
+        </strong>
+
+        <p>${choice.feedback}</p>
+      `;
+
+      nextButton.textContent =
+        currentRound === scenarioRounds.length - 1
+          ? "See My Relationship Outlook"
+          : "Continue the Relationship";
+
+      nextButton.classList.remove("hidden");
+    }
+
+    function showScenarioResult() {
+      const total =
+        relationshipState.trust +
+        relationshipState.understanding +
+        relationshipState.opportunity;
+
+      const average = total / 3;
+
+      if (average >= 75) {
+        resultTitle.textContent =
+          "You Built a Strong Relationship Foundation";
+
+        resultScore.textContent = "Strong";
+
+        resultText.textContent =
+          "Your decisions consistently prioritized understanding, customer success, honest guidance, and continued support. These behaviors increase the likelihood that the relationship will remain valuable to both organizations.";
+      } else if (average >= 50) {
+        resultTitle.textContent =
+          "You Created a Growing Relationship";
+
+        resultScore.textContent = "Growing";
+
+        resultText.textContent =
+          "You made several decisions that supported the relationship, while other choices remained focused on the immediate situation. Greater consistency in follow-up, discovery, and customer-centered guidance would strengthen future potential.";
+      } else {
+        resultTitle.textContent =
+          "The Relationship Needs More Investment";
+
+        resultScore.textContent = "Developing";
+
+        resultText.textContent =
+          "Several choices emphasized the immediate transaction more than the customer’s broader success. Long-term potential grows when the salesperson listens, follows through, and remains useful after the purchase.";
+      }
+
+      resultSection.classList.remove("hidden");
+      resultSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+
+    nextButton.addEventListener("click", function () {
+      if (currentRound < scenarioRounds.length - 1) {
+        currentRound += 1;
+        renderScenario();
+      } else {
+        showScenarioResult();
+      }
+    });
+
+    experience
+      .querySelector("#lcvRestartButton")
+      .addEventListener("click", function () {
+        currentRound = 0;
+
+        relationshipState.trust = 25;
+        relationshipState.understanding = 25;
+        relationshipState.opportunity = 25;
+
+        resultSection.classList.add("hidden");
+
+        updateIndicators();
+        renderScenario();
+
+        experience
+          .querySelector(".lcv-scenario-section")
+          .scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+      });
+
+
+    /* -----------------------------------------
+       PART 4: ACTION SELECTION
+    ----------------------------------------- */
+
+    const checkActionsButton =
+      experience.querySelector("#lcvCheckActions");
+
+    const actionFeedback =
+      experience.querySelector("#lcvActionFeedback");
+
+    checkActionsButton.addEventListener("click", function () {
+      const cards =
+        experience.querySelectorAll(".lcv-check-card");
+
+      let correctSelected = 0;
+      let incorrectSelected = 0;
+      let missedCorrect = 0;
+
+      cards.forEach(function (card) {
+        card.classList.remove(
+          "correct-review",
+          "incorrect-review"
+        );
+
+        const input = card.querySelector("input");
+        const isCorrect = input.value === "correct";
+
+        if (input.checked && isCorrect) {
+          correctSelected += 1;
+          card.classList.add("correct-review");
+        }
+
+        if (input.checked && !isCorrect) {
+          incorrectSelected += 1;
+          card.classList.add("incorrect-review");
+        }
+
+        if (!input.checked && isCorrect) {
+          missedCorrect += 1;
+        }
+      });
+
+      actionFeedback.classList.remove("hidden");
+
+      if (
+        correctSelected === 4 &&
+        incorrectSelected === 0
+      ) {
+        actionFeedback.className =
+          "lcv-action-feedback strong";
+
+        actionFeedback.innerHTML = `
+          <strong>Excellent relationship thinking.</strong>
+
+          <p>
+            You identified the actions that deepen customer
+            understanding, protect trust, support results, and
+            prepare the relationship for future opportunities.
+          </p>
+        `;
+      } else {
+        actionFeedback.className =
+          "lcv-action-feedback limited";
+
+        actionFeedback.innerHTML = `
+          <strong>Take another look.</strong>
+
+          <p>
+            Strong long-term actions help the customer succeed,
+            deepen your understanding, or keep the relationship
+            useful between purchases. You selected
+            ${correctSelected} of 4 relationship-building actions
+            and missed ${missedCorrect}.
+          </p>
+        `;
+      }
+    });
+
+
+    /* -----------------------------------------
+       FINAL REFLECTION
+    ----------------------------------------- */
+
+    const reflectionInput =
+      experience.querySelector("#lcvReflectionInput");
+
+    const reflectionButton =
+      experience.querySelector("#lcvSaveReflection");
+
+    const reflectionStatus =
+      experience.querySelector("#lcvReflectionStatus");
+
+    reflectionButton.addEventListener("click", function () {
+      const response = reflectionInput.value.trim();
+
+      if (response.length < 10) {
+        reflectionStatus.textContent =
+          "Add a little more detail before completing your reflection.";
+
+        reflectionInput.focus();
+        return;
+      }
+
+      reflectionStatus.textContent =
+        "Reflection complete. You have identified a practical next step.";
+
+      reflectionButton.textContent = "Reflection Completed";
+    });
+
+
+    /* INITIALIZE */
+
+    updateIndicators();
+    renderScenario();
   })();
 </script>
